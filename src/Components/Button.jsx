@@ -19,7 +19,7 @@ const Button = ({className , href , onClick , children , px , white}) => {
     )
 
    const renderButton = ()=>(
-    <button className={classes}>
+    <button onClick={onClick} className={classes}>
         <span className={spanClasses}>
             {children}
         </span>
